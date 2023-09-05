@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#barra-up {
+    height: 4vh;
+    background-color: rgb(139, 109, 26);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#icon-up {
+    display: flex;
+    padding-right: 1em;
+    padding-left: 1em;
+    font-size: 1.5em;
+}
+
+#pagina {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+#barra-sx {
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(35, 196, 196);
+    
+   
+}
+
+#icon {
+    padding: 5em;
+}
+
+
+#icon ion-icon {
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#icon-dx {
+    align-items: center;
+    padding: 15px;
+    padding-bottom: 0;
+}
+   
+
+#icon-dx ion-icon {
+    font-size: 2em;
+    
+          
+}
+
+#contenuto {
+    width: 100vh;
+    height: max-content;
+}
+
+#barra-dx {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: chocolate;
+}
+
+.linksPag {
+    margin-top: 25px;
+    margin-bottom: 25px;      
+}
+
+#barra-dx p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    margin: 10px;
+    font-size: 1.2em;
+}
+
+.text-titles {
+    margin: 30px;
+}
+
+.img-centrata {
+    max-width: 60%;
+    max-height: 60%;
+    height: auto;
+    width: auto;
+   
+  }
+
+  #imm-link {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+
+    max-width: 80%;
+    max-height: 80%;
+    
+  }
+
+  footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: black;
+  }
