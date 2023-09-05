@@ -37,6 +37,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    left: 0;
     background-color: rgb(35, 196, 196);
     
    
@@ -67,6 +68,7 @@ body {
 
 #contenuto {
     width: 100vh;
+    
     height: max-content;
 }
 
@@ -75,6 +77,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    right: 0;
     
     background-color: chocolate;
 }
@@ -130,4 +133,10 @@ body {
 
   a:visited {
     color: black;
+  }
+
+  .barra-laterale {
+    position: fixed;
+    height: 100%; 
+    overflow-y: auto;
   }
